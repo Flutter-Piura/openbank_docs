@@ -1,0 +1,33 @@
+name: Propuesta o corrección documental
+description: Propón una decisión, mejora o corrección de documentación.
+title: "[Docs]: "
+labels: [triage]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Tipo
+      options: [Corrección, Nueva guía, Decisión arquitectónica, Roadmap]
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción y motivación
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Repositorios o decisiones afectadas
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verificación
+      options:
+        - label: Confirmo que no incluí secretos ni datos reales.
+          required: true
+        - label: Revisé documentación e issues existentes.
+          required: true
