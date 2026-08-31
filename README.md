@@ -7,7 +7,11 @@ OpenBank trabaja exclusivamente con identidades, cuentas y dinero ficticios. No 
 ## Documentos principales
 
 - [Plan maestro de implementación](PLAN_MAESTRO.md)
+- [Product brief del MVP](PRODUCT_BRIEF.md)
+- [Glosario de dominio](DOMAIN_GLOSSARY.md)
+- [Matriz de compatibilidad](COMPATIBILITY.md)
 - [ADR-0001: arquitectura limpia, contrato primero y monolito modular](adr/0001-clean-architecture-contract-first.md)
+- [ADR-0002: convenciones de la API](adr/0002-api-conventions.md)
 
 ## Repositorios
 
