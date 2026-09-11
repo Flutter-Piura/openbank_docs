@@ -1,6 +1,6 @@
 # OpenBank — Plan maestro de implementación
 
-> Estado: aprobado para ejecución el 2026-08-30. El avance se realizará por fases, validando los criterios de salida y reportando cada hito.
+> Estado: integración local 0.1.0 validada el 2026-09-10. Las fases 8–10 permanecen como roadmap; consulta el informe de integración para la evidencia ejecutable.
 
 ## 1. Visión
 

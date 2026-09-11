@@ -10,6 +10,7 @@ OpenBank trabaja exclusivamente con identidades, cuentas y dinero ficticios. No 
 - [Product brief del MVP](PRODUCT_BRIEF.md)
 - [Glosario de dominio](DOMAIN_GLOSSARY.md)
 - [Matriz de compatibilidad](COMPATIBILITY.md)
+- [Informe de integración local 0.1.0](INTEGRATION_REPORT_0.1.0.md)
 - [ADR-0001: arquitectura limpia, contrato primero y monolito modular](adr/0001-clean-architecture-contract-first.md)
 - [ADR-0002: convenciones de la API](adr/0002-api-conventions.md)
 
@@ -23,4 +24,4 @@ OpenBank trabaja exclusivamente con identidades, cuentas y dinero ficticios. No 
 
 ## Estado
 
-El proyecto se encuentra en fase de fundación. Consulta el plan maestro para conocer el alcance, los criterios de salida y el orden de implementación.
+El vertical slice local 0.1.0 está integrado: Flutter funciona contra MobileLab y contra la API NestJS/PostgreSQL levantada con Docker Compose. Las fases de endurecimiento, staging y release público completo continúan en el roadmap.
